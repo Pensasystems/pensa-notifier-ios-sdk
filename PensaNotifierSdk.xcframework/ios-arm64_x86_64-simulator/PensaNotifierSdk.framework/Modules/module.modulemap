@@ -1,0 +1,6 @@
+framework module PensaNotifierSdk {
+  umbrella header "PensaNotifierSdk.h"
+  export *
+
+  module * { export * }
+}
