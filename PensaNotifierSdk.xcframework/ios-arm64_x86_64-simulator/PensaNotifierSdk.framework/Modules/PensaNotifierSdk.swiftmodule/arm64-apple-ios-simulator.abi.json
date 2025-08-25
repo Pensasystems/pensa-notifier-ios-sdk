@@ -1405,34 +1405,34 @@
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 196,
-      "length": 36,
-      "value": "\"https:\/\/notifier-dev-k8s.pensa.app\""
+      "length": 39,
+      "value": "\"https:\/\/notifier-api.pensasystems.net\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 304,
       "length": 26,
       "value": "\"\/api\/v1\/mobile\/pushClick\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 357,
+      "offset": 360,
       "length": 28,
       "value": "\"\/api\/v1\/mobile\/pushReceive\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 422,
       "length": 22,
       "value": "\"\/api\/v1\/mobile\/token\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 470,
+      "offset": 473,
       "length": 27,
       "value": "\"\/api\/v1\/mobile\/userUpdate\""
     },

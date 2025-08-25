@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qUC/DGMwYSFDnQkqIgsCM3hRgZQ=
+		WgsBZ/mzGMyX6qTG+b5qFhp8nhU=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BkL80EtzFclXI4Jq5sc1pTrsr84=
+		iT82WKVLIkKZzHSos5gGn1599+M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBSO8n5G9B345mIe9Ua31bg2cq4sulnwej6lqFJtp9U=
+			7Kcvpmf03q+ruHOyyVV/BPcQ1Q+lVPlEzn+VmNxAPOw=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPZKD9MHShFfb2yRTFRHbdT+soAbt6vf31Vs+9sx5dw=
+			f5bNDjBIo67QQF32Gt903acTDLdSgXqwBrXYLeHkqpU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
