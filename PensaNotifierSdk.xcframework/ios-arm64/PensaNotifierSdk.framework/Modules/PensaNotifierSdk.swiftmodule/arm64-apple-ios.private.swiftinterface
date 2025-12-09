@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PensaNotifierSdk
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PensaNotifierSdk
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Foundation
 import ObjectiveC
 @_exported import PensaNotifierSdk
@@ -13,11 +14,13 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import ObjectiveC.runtime
 @_hasMissingDesignatedInitializers public class SwizzleUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetSelector: ObjectiveC.Selector)
+  #endif
   @objc deinit
 }
 extension UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public static func installPushTokenHooks()
+  @_Concurrency.MainActor @preconcurrency public static func installNotificationHooks()
 }
 extension UserNotifications.UNUserNotificationCenter {
   public static func swizzleDelegate()
@@ -32,11 +35,13 @@ public struct PensaNotifierError : Foundation.LocalizedError {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PensaNotifier {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
   public static func requestPushNotificationAuthorization()
   public static func onNewPushToken(_ token: Foundation.Data)
-  public static func onPushClicked(_ userInfo: [Swift.AnyHashable : Any])
-  public static func onRemoteMessageReceived(_ userInfo: [Swift.AnyHashable : Any], completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func updateUser(userId: Swift.String, customAttributes: [Swift.String : Any]? = nil, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void = { _ in })
+  #endif
   @objc deinit
 }

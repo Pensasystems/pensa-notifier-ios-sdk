@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pijEENbx27EfeMdDQJyd66cHfDE=
+		t/oXWlF6/vnKkd2bc9CNdSF1AMY=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WgsBZ/mzGMyX6qTG+b5qFhp8nhU=
+		LdvQewtXJ17N5+DPP5F3nqVbkys=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ejl6XeinrFg0Nce+Dj2FSNrBUcI=
+		7LlSFNkcAn72RtFsX0SNyOXj1/c=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PAyDnblFuoADu7GmR/1FIy3jieY=
+		/gElSW9uydI324H7+RcH0Isq0XQ=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ejl6XeinrFg0Nce+Dj2FSNrBUcI=
+		7LlSFNkcAn72RtFsX0SNyOXj1/c=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nXDrJw8+Q63vJKa+XXpCwwNp5h0=
+		30A1d/VzkKJQ472VqSfAjxC/PAs=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WgsBZ/mzGMyX6qTG+b5qFhp8nhU=
+		LdvQewtXJ17N5+DPP5F3nqVbkys=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CMo83EbTuDoXsARwuOdEmC0hrYI=
+		uKSFFdI5cZNTB126evcKh5lQ5uQ=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		93JI/0G+sezRrH3rkn8eruFSJWI=
+		iMB+Ll2KoZeg0qytJqVNZOotP5Y=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CMo83EbTuDoXsARwuOdEmC0hrYI=
+		uKSFFdI5cZNTB126evcKh5lQ5uQ=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rxxwz7M3xjyTFsfTH+c52erXSME=
+		xRPG2LshPGyYcdNzXAYsvByYUls=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Kcvpmf03q+ruHOyyVV/BPcQ1Q+lVPlEzn+VmNxAPOw=
+			BwweR3P6oJu6BOZM65yM7QGk9KDTIFJJEq2BTmv9MBs=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxYejZDY5WgLK8dljWmOPyv9ZqKa75b1pLWcy18ZhSQ=
+			8OSMybBd+kH5P8W3a2azJB/D3CkR89zuodg28i58Euc=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFs65gjQKi3+8ULnTZyJ8E9d4IUopBvdOJgoWgKQdWM=
+			xP/M4+6LMyJcCzH/buPoLhwgFOHvUkuX3egkjyKS/is=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxYejZDY5WgLK8dljWmOPyv9ZqKa75b1pLWcy18ZhSQ=
+			8OSMybBd+kH5P8W3a2azJB/D3CkR89zuodg28i58Euc=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gMokkr+sFU7OW7TIlSI+U4x6rn9l+P0r20aNyQEZvmk=
+			khMYfsTJ2yU2m5TYnFm3RoobukpBHJkfj+ONozj4gzg=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Kcvpmf03q+ruHOyyVV/BPcQ1Q+lVPlEzn+VmNxAPOw=
+			BwweR3P6oJu6BOZM65yM7QGk9KDTIFJJEq2BTmv9MBs=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsmeBicOsj1+ZebdJFNs2wTtTyCArEyUxxhrgQ9NBDw=
+			nFMiCE+zNYwewFopOxvNSHooJfju5S4qL5Q0fMurxJU=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q1Jvz6A4TAVGGATfPbVWd4ON6RT+LTuZ4nHbR0/5ze4=
+			4Vzrn07dm8ht7McXWtDfDCOsN81Y4WnQNu/kxKo4fz4=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsmeBicOsj1+ZebdJFNs2wTtTyCArEyUxxhrgQ9NBDw=
+			nFMiCE+zNYwewFopOxvNSHooJfju5S4qL5Q0fMurxJU=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			frduHVpTl7tIyOcaeJkPh1DNzRMGAuzE+TYlvERUe18=
+			3qPnXu0G8qZPqKr6OuQHLuPtMWgFMgiJ7Zek0MAMLRQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
