@@ -20,7 +20,11 @@ import ObjectiveC.runtime
   @objc deinit
 }
 extension UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public static func installNotificationHooks()
+  @_Concurrency.MainActor @preconcurrency public static func installRemoteNotificationRegistrationTracking()
+  @_Concurrency.MainActor @preconcurrency public static func registerForRemoteNotificationsIfNeeded()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public static func installNotificationHooks(retriesRemaining: Swift.Int = 5, completion: (() -> Swift.Void)? = nil)
+  #endif
 }
 extension UserNotifications.UNUserNotificationCenter {
   public static func swizzleDelegate()
