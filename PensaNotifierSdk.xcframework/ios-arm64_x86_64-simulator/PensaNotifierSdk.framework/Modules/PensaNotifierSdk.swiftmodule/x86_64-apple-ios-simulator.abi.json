@@ -16,13 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "PensaNotifierSdk"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -159,13 +152,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "ObjectiveC.runtime",
-        "printedName": "ObjectiveC.runtime",
-        "declKind": "Import",
-        "moduleName": "PensaNotifierSdk"
       },
       {
         "kind": "Import",
@@ -1032,8 +1018,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "installNotificationHooks",
-            "printedName": "installNotificationHooks()",
+            "name": "installRemoteNotificationRegistrationTracking",
+            "printedName": "installRemoteNotificationRegistrationTracking()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1042,14 +1028,97 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So13UIApplicationC16PensaNotifierSdkE24installNotificationHooksyyFZ",
-            "mangledName": "$sSo13UIApplicationC16PensaNotifierSdkE24installNotificationHooksyyFZ",
+            "usr": "s:So13UIApplicationC16PensaNotifierSdkE45installRemoteNotificationRegistrationTrackingyyFZ",
+            "mangledName": "$sSo13UIApplicationC16PensaNotifierSdkE45installRemoteNotificationRegistrationTrackingyyFZ",
             "moduleName": "PensaNotifierSdk",
             "static": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
               "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForRemoteNotificationsIfNeeded",
+            "printedName": "registerForRemoteNotificationsIfNeeded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC16PensaNotifierSdkE38registerForRemoteNotificationsIfNeededyyFZ",
+            "mangledName": "$sSo13UIApplicationC16PensaNotifierSdkE38registerForRemoteNotificationsIfNeededyyFZ",
+            "moduleName": "PensaNotifierSdk",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "installNotificationHooks",
+            "printedName": "installNotificationHooks(retriesRemaining:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC16PensaNotifierSdkE24installNotificationHooks16retriesRemaining10completionySi_yycSgtFZ",
+            "mangledName": "$sSo13UIApplicationC16PensaNotifierSdkE24installNotificationHooks16retriesRemaining10completionySi_yycSgtFZ",
+            "moduleName": "PensaNotifierSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1262,38 +1331,38 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 66,
-      "value": "\"pn_application:didRegisterForRemoteNotificationsWithDeviceToken:\""
-    },
-    {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 66,
-      "value": "\"pn_application:didFailToRegisterForRemoteNotificationsWithError:\""
-    },
-    {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 69,
-      "value": "\"pn_application:didReceiveRemoteNotification:fetchCompletionHandler:\""
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "BooleanLiteral",
-      "offset": 649,
+      "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterSwizzler.swift",
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 430,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "IntegerLiteral",
-      "offset": 267,
+      "offset": 1760,
       "length": 1,
-      "value": "0"
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterSwizzler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
