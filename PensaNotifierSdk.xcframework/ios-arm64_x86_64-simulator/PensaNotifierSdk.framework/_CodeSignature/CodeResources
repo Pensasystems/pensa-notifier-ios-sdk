@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bvEsjkzYG4Lih0eAKkH+4P/rlKQ=
+		eum2RvN5/MWAX8ubl/cXhk3m5IA=
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dwQDQns26lNyVRlVlwiD2NmhtbA=
+		NI2YapVC16/utxHnHhGo2aTxSTY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRvaoU1vTUTXN8JYKRG8quo4YlEEflOdwIm8lmDNHQA=
+			+5hlqxSeVN1cyrhLOkvCM6qtzx148PXtAI4MYMaoDU4=
 			</data>
 		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dg0sBkcdFPiw+e7vM1tpW00NQt2CauUX/0sXFUtSbkM=
+			N8qWLZU3i6urdpWieORmIFp5XDC9PBvKpQY69aJNV60=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
