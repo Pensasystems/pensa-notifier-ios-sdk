@@ -6,6 +6,7 @@ import Foundation
 import ObjectiveC
 @_exported import PensaNotifierSdk
 import SQLite3
+import SafariServices
 import Swift
 import UIKit
 import UserNotifications
@@ -43,9 +44,125 @@ public struct PensaNotifierError : Foundation.LocalizedError {
   public static func initialize(completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
   #endif
   public static func requestPushNotificationAuthorization()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func setDeeplinkHandler(_ deeplinkHandler: (any PensaNotifierSdk.PensaNotifierDeeplinkHandler)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func setInAppLifecycleCallbacks(_ callbacks: (any PensaNotifierSdk.PensaNotifierInAppLifecycleCallbacks)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func setInternalBrowserLifecycleCallbacks(_ callbacks: (any PensaNotifierSdk.PensaNotifierInternalBrowserLifecycleCallbacks)?)
+  #endif
   public static func onNewPushToken(_ token: Foundation.Data)
+  @discardableResult
+  public static func showInAppMessage() -> PensaNotifierSdk.PensaNotifierInAppShowResult
   #if compiler(>=5.3) && $NonescapableTypes
   public static func updateUser(userId: Swift.String, customAttributes: [Swift.String : Any]? = nil, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void = { _ in })
   #endif
   @objc deinit
 }
+public struct PensaNotifierAction : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public let kind: Swift.String?
+  public let deeplinkMode: PensaNotifierSdk.PensaNotifierDeeplinkMode?
+  public let target: Swift.String?
+  public let fallbackTarget: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(kind: Swift.String? = nil, deeplinkMode: PensaNotifierSdk.PensaNotifierDeeplinkMode? = nil, target: Swift.String? = nil, fallbackTarget: Swift.String? = nil)
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: PensaNotifierSdk.PensaNotifierAction, b: PensaNotifierSdk.PensaNotifierAction) -> Swift.Bool
+}
+public protocol PensaNotifierDeeplinkHandler : AnyObject {
+  func handle(action: PensaNotifierSdk.PensaNotifierAction, push: PensaNotifierSdk.PensaNotifierPushPayload) -> Swift.Bool
+}
+public enum PensaNotifierDeeplinkMode : Swift.String, Swift.Codable, Swift.Sendable {
+  case inline
+  case internalBrowser
+  case externalBrowser
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PensaNotifierInAppButton : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public let label: Swift.String?
+  public let action: PensaNotifierSdk.PensaNotifierAction?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(label: Swift.String? = nil, action: PensaNotifierSdk.PensaNotifierAction? = nil)
+  #endif
+  public static func == (a: PensaNotifierSdk.PensaNotifierInAppButton, b: PensaNotifierSdk.PensaNotifierInAppButton) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol PensaNotifierInAppLifecycleCallbacks : AnyObject {
+  func onInAppShown(push: PensaNotifierSdk.PensaNotifierPushPayload)
+  func onInAppDismissed(push: PensaNotifierSdk.PensaNotifierPushPayload)
+}
+public struct PensaNotifierInAppMessage : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public let template: Swift.String?
+  public let position: Swift.String?
+  public let headline: Swift.String?
+  public let body: Swift.String?
+  public let imageUrl: Swift.String?
+  public let primaryButton: PensaNotifierSdk.PensaNotifierInAppButton?
+  public let secondaryButton: PensaNotifierSdk.PensaNotifierInAppButton?
+  public let dismissible: Swift.Bool?
+  public let isFullHeight: Swift.Bool?
+  public let ttlSeconds: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(template: Swift.String? = nil, position: Swift.String? = nil, headline: Swift.String? = nil, body: Swift.String? = nil, imageUrl: Swift.String? = nil, primaryButton: PensaNotifierSdk.PensaNotifierInAppButton? = nil, secondaryButton: PensaNotifierSdk.PensaNotifierInAppButton? = nil, dismissible: Swift.Bool? = nil, isFullHeight: Swift.Bool? = nil, ttlSeconds: Swift.Int? = nil)
+  #endif
+  public static func == (a: PensaNotifierSdk.PensaNotifierInAppMessage, b: PensaNotifierSdk.PensaNotifierInAppMessage) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum PensaNotifierInAppShowResult : Swift.Sendable {
+  case shown
+  case nothingToShow
+  case notInitialized
+  public static func == (a: PensaNotifierSdk.PensaNotifierInAppShowResult, b: PensaNotifierSdk.PensaNotifierInAppShowResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol PensaNotifierInternalBrowserLifecycleCallbacks : AnyObject {
+  func onInternalBrowserShown(push: PensaNotifierSdk.PensaNotifierPushPayload, url: Swift.String)
+  func onInternalBrowserDismissed(push: PensaNotifierSdk.PensaNotifierPushPayload, url: Swift.String)
+}
+public enum PensaNotifierJSONValue : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  case string(Swift.String)
+  case number(Swift.Double)
+  case bool(Swift.Bool)
+  case object([Swift.String : PensaNotifierSdk.PensaNotifierJSONValue])
+  case array([PensaNotifierSdk.PensaNotifierJSONValue])
+  case null
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: PensaNotifierSdk.PensaNotifierJSONValue, b: PensaNotifierSdk.PensaNotifierJSONValue) -> Swift.Bool
+}
+public struct PensaNotifierPushPayload {
+  public let notificationId: Swift.String?
+  public let style: Swift.Int?
+  public let type: Swift.Int?
+  public let schemaVersion: Swift.Int?
+  public let messageKind: Swift.String?
+  public let title: Swift.String?
+  public let message: Swift.String?
+  public let action: PensaNotifierSdk.PensaNotifierAction?
+  public let inApp: PensaNotifierSdk.PensaNotifierInAppMessage?
+  public let rawExtras: [Swift.String : PensaNotifierSdk.PensaNotifierJSONValue]?
+  public let userInfo: [Swift.AnyHashable : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(notificationId: Swift.String? = nil, style: Swift.Int? = nil, type: Swift.Int? = nil, schemaVersion: Swift.Int? = nil, messageKind: Swift.String? = nil, title: Swift.String? = nil, message: Swift.String? = nil, action: PensaNotifierSdk.PensaNotifierAction? = nil, inApp: PensaNotifierSdk.PensaNotifierInAppMessage? = nil, rawExtras: [Swift.String : PensaNotifierSdk.PensaNotifierJSONValue]? = nil, userInfo: [Swift.AnyHashable : Any] = [:])
+  #endif
+}
+extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.Equatable {}
+extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.Hashable {}
+extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.RawRepresentable {}
+extension PensaNotifierSdk.PensaNotifierInAppShowResult : Swift.Equatable {}
+extension PensaNotifierSdk.PensaNotifierInAppShowResult : Swift.Hashable {}
