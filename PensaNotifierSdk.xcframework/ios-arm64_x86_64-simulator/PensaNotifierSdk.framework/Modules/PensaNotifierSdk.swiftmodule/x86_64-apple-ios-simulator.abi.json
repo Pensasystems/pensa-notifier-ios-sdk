@@ -452,13 +452,20 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
         "declKind": "Import",
         "moduleName": "PensaNotifierSdk",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PensaNotifierSdk"
       },
       {
         "kind": "Import",
@@ -1102,19 +1109,19 @@
           },
           {
             "kind": "Function",
-            "name": "showInAppMessage",
-            "printedName": "showInAppMessage()",
+            "name": "showPendingPopup",
+            "printedName": "showPendingPopup()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PensaNotifierInAppShowResult",
-                "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
+                "name": "PensaNotifierPopupShowResult",
+                "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16PensaNotifierSdk0aB0C16showInAppMessageAA0abeF10ShowResultOyFZ",
-            "mangledName": "$s16PensaNotifierSdk0aB0C16showInAppMessageAA0abeF10ShowResultOyFZ",
+            "usr": "s:16PensaNotifierSdk0aB0C16showPendingPopupAA0abF10ShowResultOyFZ",
+            "mangledName": "$s16PensaNotifierSdk0aB0C16showPendingPopupAA0abF10ShowResultOyFZ",
             "moduleName": "PensaNotifierSdk",
             "static": true,
             "declAttributes": [
@@ -3464,281 +3471,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PensaNotifierInAppShowResult",
-        "printedName": "PensaNotifierInAppShowResult",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shown",
-            "printedName": "shown",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PensaNotifierSdk.PensaNotifierInAppShowResult.Type) -> PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PensaNotifierInAppShowResult",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                    "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PensaNotifierInAppShowResult",
-                        "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                        "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO5shownyA2CmF",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO5shownyA2CmF",
-            "moduleName": "PensaNotifierSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "nothingToShow",
-            "printedName": "nothingToShow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PensaNotifierSdk.PensaNotifierInAppShowResult.Type) -> PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PensaNotifierInAppShowResult",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                    "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PensaNotifierInAppShowResult",
-                        "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                        "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO09nothingToF0yA2CmF",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO09nothingToF0yA2CmF",
-            "moduleName": "PensaNotifierSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "notInitialized",
-            "printedName": "notInitialized",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PensaNotifierSdk.PensaNotifierInAppShowResult.Type) -> PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PensaNotifierInAppShowResult",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                    "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PensaNotifierInAppShowResult",
-                        "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                        "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO14notInitializedyA2CmF",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO14notInitializedyA2CmF",
-            "moduleName": "PensaNotifierSdk"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PensaNotifierInAppShowResult",
-                "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PensaNotifierInAppShowResult",
-                "printedName": "PensaNotifierSdk.PensaNotifierInAppShowResult",
-                "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO2eeoiySbAC_ACtFZ",
-            "moduleName": "PensaNotifierSdk",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO9hashValueSivp",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO9hashValueSivp",
-            "moduleName": "PensaNotifierSdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO9hashValueSivg",
-                "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO9hashValueSivg",
-                "moduleName": "PensaNotifierSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO4hash4intoys6HasherVz_tF",
-            "moduleName": "PensaNotifierSdk",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:16PensaNotifierSdk0aB15InAppShowResultO",
-        "mangledName": "$s16PensaNotifierSdk0aB15InAppShowResultO",
-        "moduleName": "PensaNotifierSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PensaNotifierSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PensaNotifierInternalBrowserLifecycleCallbacks",
         "printedName": "PensaNotifierInternalBrowserLifecycleCallbacks",
         "children": [
@@ -4289,6 +4021,281 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PensaNotifierSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PensaNotifierPopupShowResult",
+        "printedName": "PensaNotifierPopupShowResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shown",
+            "printedName": "shown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PensaNotifierSdk.PensaNotifierPopupShowResult.Type) -> PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaNotifierPopupShowResult",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                    "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaNotifierPopupShowResult",
+                        "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                        "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO5shownyA2CmF",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO5shownyA2CmF",
+            "moduleName": "PensaNotifierSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "nothingToShow",
+            "printedName": "nothingToShow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PensaNotifierSdk.PensaNotifierPopupShowResult.Type) -> PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaNotifierPopupShowResult",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                    "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaNotifierPopupShowResult",
+                        "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                        "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO09nothingToE0yA2CmF",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO09nothingToE0yA2CmF",
+            "moduleName": "PensaNotifierSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PensaNotifierSdk.PensaNotifierPopupShowResult.Type) -> PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaNotifierPopupShowResult",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                    "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaNotifierPopupShowResult",
+                        "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                        "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO14notInitializedyA2CmF",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO14notInitializedyA2CmF",
+            "moduleName": "PensaNotifierSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PensaNotifierPopupShowResult",
+                "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PensaNotifierPopupShowResult",
+                "printedName": "PensaNotifierSdk.PensaNotifierPopupShowResult",
+                "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "PensaNotifierSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO9hashValueSivp",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO9hashValueSivp",
+            "moduleName": "PensaNotifierSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO9hashValueSivg",
+                "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO9hashValueSivg",
+                "moduleName": "PensaNotifierSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO4hash4intoys6HasherVz_tF",
+            "moduleName": "PensaNotifierSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16PensaNotifierSdk0aB15PopupShowResultO",
+        "mangledName": "$s16PensaNotifierSdk0aB15PopupShowResultO",
+        "moduleName": "PensaNotifierSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -5682,7 +5689,14 @@
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInAppMessagePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5335,
+      "offset": 5811,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInternalBrowserPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 680,
       "length": 5,
       "value": "false"
     },

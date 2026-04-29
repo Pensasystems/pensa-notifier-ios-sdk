@@ -55,7 +55,7 @@ public struct PensaNotifierError : Foundation.LocalizedError {
   #endif
   public static func onNewPushToken(_ token: Foundation.Data)
   @discardableResult
-  public static func showInAppMessage() -> PensaNotifierSdk.PensaNotifierInAppShowResult
+  public static func showPendingPopup() -> PensaNotifierSdk.PensaNotifierPopupShowResult
   #if compiler(>=5.3) && $NonescapableTypes
   public static func updateUser(userId: Swift.String, customAttributes: [Swift.String : Any]? = nil, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void = { _ in })
   #endif
@@ -120,16 +120,6 @@ public struct PensaNotifierInAppMessage : Swift.Codable, Swift.Equatable, Swift.
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum PensaNotifierInAppShowResult : Swift.Sendable {
-  case shown
-  case nothingToShow
-  case notInitialized
-  public static func == (a: PensaNotifierSdk.PensaNotifierInAppShowResult, b: PensaNotifierSdk.PensaNotifierInAppShowResult) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public protocol PensaNotifierInternalBrowserLifecycleCallbacks : AnyObject {
   func onInternalBrowserShown(push: PensaNotifierSdk.PensaNotifierPushPayload, url: Swift.String)
   func onInternalBrowserDismissed(push: PensaNotifierSdk.PensaNotifierPushPayload, url: Swift.String)
@@ -144,6 +134,16 @@ public enum PensaNotifierJSONValue : Swift.Codable, Swift.Equatable, Swift.Senda
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   public static func == (a: PensaNotifierSdk.PensaNotifierJSONValue, b: PensaNotifierSdk.PensaNotifierJSONValue) -> Swift.Bool
+}
+public enum PensaNotifierPopupShowResult : Swift.Sendable {
+  case shown
+  case nothingToShow
+  case notInitialized
+  public static func == (a: PensaNotifierSdk.PensaNotifierPopupShowResult, b: PensaNotifierSdk.PensaNotifierPopupShowResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct PensaNotifierPushPayload {
   public let notificationId: Swift.String?
@@ -164,5 +164,5 @@ public struct PensaNotifierPushPayload {
 extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.Equatable {}
 extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.Hashable {}
 extension PensaNotifierSdk.PensaNotifierDeeplinkMode : Swift.RawRepresentable {}
-extension PensaNotifierSdk.PensaNotifierInAppShowResult : Swift.Equatable {}
-extension PensaNotifierSdk.PensaNotifierInAppShowResult : Swift.Hashable {}
+extension PensaNotifierSdk.PensaNotifierPopupShowResult : Swift.Equatable {}
+extension PensaNotifierSdk.PensaNotifierPopupShowResult : Swift.Hashable {}
