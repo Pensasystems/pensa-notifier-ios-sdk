@@ -946,6 +946,35 @@
           },
           {
             "kind": "Function",
+            "name": "setAppId",
+            "printedName": "setAppId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PensaNotifierSdk0aB0C8setAppIdyySSFZ",
+            "mangledName": "$s16PensaNotifierSdk0aB0C8setAppIdyySSFZ",
+            "moduleName": "PensaNotifierSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "requestPushNotificationAuthorization",
             "printedName": "requestPushNotificationAuthorization()",
             "children": [
@@ -5680,6 +5709,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1933,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 28,
+      "value": "\"pensa.offline.events.queue\""
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 2,
+      "value": "-1"
+    },
+    {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierDeeplinkExecutor.swift",
       "kind": "StringLiteral",
       "offset": 304,
@@ -5744,66 +5794,87 @@
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 450,
+      "offset": 413,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 454,
       "length": 13,
       "value": "\"device_uuid\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 497,
+      "length": 17,
+      "value": "\"notifier_app_id\""
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
       "length": 10,
       "value": "\"base_url\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 590,
       "length": 21,
       "value": "\"notifier_push_token\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 650,
       "length": 26,
       "value": "\"notifier_push_token_sent\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 707,
       "length": 18,
       "value": "\"notifier_user_id\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 1141,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 1319,
       "length": 9,
       "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4343,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6131,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
