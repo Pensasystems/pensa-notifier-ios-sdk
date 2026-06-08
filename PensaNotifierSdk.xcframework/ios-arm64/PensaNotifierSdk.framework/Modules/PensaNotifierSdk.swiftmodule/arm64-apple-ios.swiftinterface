@@ -43,6 +43,7 @@ public struct PensaNotifierError : Foundation.LocalizedError {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
   #endif
+  public static func setAppId(_ appId: Swift.String)
   public static func requestPushNotificationAuthorization()
   #if compiler(>=5.3) && $NonescapableTypes
   public static func setDeeplinkHandler(_ deeplinkHandler: (any PensaNotifierSdk.PensaNotifierDeeplinkHandler)?)
