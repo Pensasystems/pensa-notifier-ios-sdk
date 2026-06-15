@@ -5606,21 +5606,21 @@
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 315,
+      "offset": 322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 371,
+      "offset": 385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 426,
+      "offset": 447,
       "length": 5,
       "value": "false"
     },
@@ -5655,14 +5655,14 @@
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 1101,
+      "offset": 1115,
       "length": 5,
       "value": "false"
     },
