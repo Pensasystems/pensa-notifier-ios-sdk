@@ -4,6 +4,54 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alamofire_Alamofire.bundle/Info.plist</key>
+		<data>
+		FxPhfQZOF/xWAOiNsJOmJiSfeAk=
+		</data>
+		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		DmszKZwU+lMVLQm2rvvljFhOHTo=
+		</data>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		jdngcXeDI0UZLHZoMPnZUfVtbC0=
+		</data>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/Info.plist</key>
+		<data>
+		oP6lhbjomc365/o7q21jsQgPJ7I=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		TVk5YppZIZ0wKnZxQU4SIvSsfkc=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		qIHyQJCtFrEnWRT3bOH4Ah8Z0v8=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		S72LhDWFXRQd7a/6pIQVcZGinE8=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>Headers/PensaNotifierSdk.h</key>
 		<data>
 		XqABAVexk5VOuyxgL+NRwjDgAFk=
@@ -28,10 +76,6 @@
 		<data>
 		/+T9EEjRT+jIIBKBeKd8LkDaqks=
 		</data>
-		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		G8wM9I6kO4uaf11UtLnml0lQdZc=
-		</data>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		FEqg4u2EKWSIaDqOO2pIkxJSvLE=
@@ -48,10 +92,6 @@
 		<data>
 		5itEVLFdOgoaDkdhkyDrwahHCv8=
 		</data>
-		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		K2lP37Nm7krlAQyab/zN0HxjZss=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		f0NiDGXviG9P5ywpxikwMJ0UfVo=
@@ -59,6 +99,90 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alamofire_Alamofire.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vnG5NVirIRhD1z3RdZjGg1grmhctiAUBujTlDqKjZZQ=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Sl3YR/1V9/JBYmBGuByuWTSJ4NhWUiiNUFZv8WmxjI=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TphotJcCAG33suJnXnFSKWoWR5cfPUPzpZ0qmW2lEB0=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UnUEknPzXoqTwHNt6UvOzXiNdt7BgjPfz2bEbjYNrxo=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jSRxnsxC2/eavi/JAffEsMV8uJN4tZhnSfWdaQ0f5Hw=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I1cX4itBdShL2HP3rHYfNLEbQHm3cEV+CLV4I7hZei0=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hI8j41gyz6GOY1yK63LnJSzgfEIZvy1c3YaGSfJld7Y=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>Headers/PensaNotifierSdk.h</key>
 		<dict>
 			<key>hash2</key>
@@ -94,13 +218,6 @@
 			ox++PBiek+T15n9nwUM7h1sGYZYLasIW+kRWyB78F8k=
 			</data>
 		</dict>
-		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yzCjjnfMxzjUhY0QWQI/2W9YgJIYCrRKWYE3ow6Wnl0=
-			</data>
-		</dict>
 		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -127,13 +244,6 @@
 			<key>hash2</key>
 			<data>
 			VMKam3ACWqNpy9xQWcWibrjJ4Q+0IemIHd2/XyDtrdY=
-			</data>
-		</dict>
-		<key>Modules/PensaNotifierSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7TcqaJlXR+i9OtcFnyHt8lPgk1ciIvK0UCU5kd6h3ZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
