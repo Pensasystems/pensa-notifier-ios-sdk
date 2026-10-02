@@ -4,6 +4,22 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alamofire_Alamofire.bundle/Info.plist</key>
+		<data>
+		YTDGNalt3902udTZF7pAcVVbYjQ=
+		</data>
+		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/Info.plist</key>
+		<data>
+		GyfsAvsQUMQqebidv27PP5mOi98=
+		</data>
+		<key>DeviceKit_DeviceKit.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		TVk5YppZIZ0wKnZxQU4SIvSsfkc=
+		</data>
 		<key>Headers/PensaNotifierSdk.h</key>
 		<data>
 		XqABAVexk5VOuyxgL+NRwjDgAFk=
@@ -28,10 +44,6 @@
 		<data>
 		Q7chgH3SY4f27WA1GNodWMDcsOA=
 		</data>
-		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		xeP3XOCQYo2jcLXfnq6ldqkAZqY=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		f0NiDGXviG9P5ywpxikwMJ0UfVo=
@@ -39,6 +51,34 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alamofire_Alamofire.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ueTZXsHDZxYyZRoxc3DyprMytBp879bfkWRjkjOOpdA=
+			</data>
+		</dict>
+		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iGhx0Ah7t+BWJNZ3O0fLgl9n2rE5dii4DO/UMtL5YF0=
+			</data>
+		</dict>
+		<key>DeviceKit_DeviceKit.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jSRxnsxC2/eavi/JAffEsMV8uJN4tZhnSfWdaQ0f5Hw=
+			</data>
+		</dict>
 		<key>Headers/PensaNotifierSdk.h</key>
 		<dict>
 			<key>hash2</key>
@@ -72,13 +112,6 @@
 			<key>hash2</key>
 			<data>
 			h8Ja8/Rw139VRF0uGvZmPweY0gn/trP5cAKHgBfCK8o=
-			</data>
-		</dict>
-		<key>Modules/PensaNotifierSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L1u7hfqFIV+FdNitOvm1OAq25pI4tkIR8XHue3M2ZrQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
