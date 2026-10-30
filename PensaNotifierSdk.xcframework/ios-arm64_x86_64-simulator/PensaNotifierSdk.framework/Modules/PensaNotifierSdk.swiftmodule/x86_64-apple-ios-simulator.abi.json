@@ -222,6 +222,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PensaNotifierSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -408,20 +418,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "LocalizedError",
             "printedName": "LocalizedError",
             "usr": "s:10Foundation14LocalizedErrorP",
@@ -429,10 +425,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -789,38 +799,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -831,10 +813,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -845,10 +841,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1718,13 +1728,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1743,6 +1746,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2070,13 +2080,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2131,6 +2134,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -2421,13 +2431,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2446,6 +2449,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3446,13 +3456,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3471,6 +3474,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4025,13 +4035,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4050,6 +4053,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4307,17 +4317,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5424,38 +5434,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5466,10 +5448,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5480,10 +5476,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -5536,38 +5546,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5578,10 +5560,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5592,10 +5588,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }
@@ -5604,392 +5614,434 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 322,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 385,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/PushTokenProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 447,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "BooleanLiteral",
       "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "BooleanLiteral",
       "offset": 430,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UIApplicationNotificationSwizzler.swift",
       "kind": "IntegerLiteral",
       "offset": 1760,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 1061,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterDelegateProxy.swift",
       "kind": "BooleanLiteral",
       "offset": 1115,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterSwizzler.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/swizzle\/UNUserNotificationCenterSwizzler.swift",
       "kind": "BooleanLiteral",
       "offset": 354,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 39,
       "value": "\"https:\/\/notifier-api.pensasystems.net\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 20,
       "value": "\"pensa_in_app_queue\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 26,
       "value": "\"\/api\/v1\/mobile\/pushClick\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 28,
       "value": "\"\/api\/v1\/mobile\/pushReceive\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 22,
       "value": "\"\/api\/v1\/mobile\/token\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 27,
       "value": "\"\/api\/v1\/mobile\/userUpdate\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/InAppMessageQueuePolicy.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/InAppMessageQueuePolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 24,
       "value": "\"pensa.push.token.queue\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 23,
       "value": "\"pensa.rich.push.queue\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1129,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1758,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1763,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/NotifierManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1933,
+      "offset": 2323,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 28,
       "value": "\"pensa.offline.events.queue\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/OfflineEventDatabaseManager.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierDeeplinkExecutor.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierDeeplinkExecutor.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 15,
       "value": "\"OPEN_DEEPLINK\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInAppMessagePresenter.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInAppMessagePresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 5811,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInternalBrowserPresenter.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierInternalBrowserPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 680,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierPushPayloadParser.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierPushPayloadParser.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 9,
       "value": "\"pnsntfr\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierRichPushObject.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/PensaNotifierRichPushObject.swift",
       "kind": "Dictionary",
       "offset": 1212,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
       "kind": "Dictionary",
       "offset": 373,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 28,
       "value": "\"pensa.recent.notifications\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/RecentNotifications.swift",
       "kind": "IntegerLiteral",
       "offset": 638,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 413,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 13,
       "value": "\"device_uuid\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 507,
+      "length": 27,
+      "value": "\"notifier_device_vendor_id\""
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
       "length": 17,
       "value": "\"notifier_app_id\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 546,
+      "offset": 613,
       "length": 10,
       "value": "\"base_url\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 657,
       "length": 21,
       "value": "\"notifier_push_token\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 717,
       "length": 26,
       "value": "\"notifier_push_token_sent\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 785,
+      "length": 29,
+      "value": "\"notifier_push_token_sent_at\""
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
       "length": 18,
       "value": "\"notifier_user_id\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/internal\/StateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 26,
+      "value": "\"notifier_user_attributes\""
+    },
+    {
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "StringLiteral",
       "offset": 1141,
       "length": 12,
       "value": "\"production\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 9,
       "value": "\"success\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2676,
+      "offset": 2837,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4343,
+      "offset": 4504,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/network\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6131,
+      "offset": 6292,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 715,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 980,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/utils\/NotifierLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 1246,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 8,
       "value": "\"INLINE\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 18,
       "value": "\"INTERNAL_BROWSER\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierDeeplinkMode.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 18,
       "value": "\"EXTERNAL_BROWSER\""
     },
     {
-      "filePath": "\/Users\/yunus\/Projects\/Pensa\/push-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierPushPayload.swift",
+      "filePath": "\/Users\/keremuslular-pensa\/Developer\/pensa-notifier-ios-sdk-private\/PensaNotifierSdk\/PensaNotifierPushPayload.swift",
       "kind": "Dictionary",
       "offset": 1083,
       "length": 3,
